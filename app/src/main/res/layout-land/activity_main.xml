@@ -14,4 +14,150 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/capa" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="46dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/series_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="88dp"
+        android:text="Séries"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="87dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toEndOf="@+id/series_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_peaky" />
+
+    <TextView
+        android:id="@+id/filmes_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="88dp"
+        android:text="Filmes"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minha_lista_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="88dp"
+        android:text="Minha Lista"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/filmes_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/violencia_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="36dp"
+        android:text="Violência"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/empolgante_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="32dp"
+        android:text="Empolgante"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/violencia_2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/sinistro_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="52dp"
+        android:text="Sinistro"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/empolgante_2"
+        app:layout_constraintTop_toBottomOf="@+id/minha_lista_2" />
+
+    <TextView
+        android:id="@+id/minha_lista_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="48dp"
+        android:text="MINHA LISTA"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/violencia_2" />
+
+    <TextView
+        android:id="@+id/detalhes_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DETALHES"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="522dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="18dp"
+        android:layout_height="17dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/minha_lista_3"
+        app:srcCompat="@drawable/mais"
+        tools:layout_editor_absoluteX="191dp" />
+
+    <Button
+        android:id="@+id/botao_assistir"
+        android:layout_width="134dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FD0000"
+        android:text="   Assistir"
+        app:cornerRadius="5dp"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="58dp"
+        app:layout_constraintStart_toEndOf="@+id/minha_lista_3"
+        app:layout_constraintTop_toBottomOf="@+id/empolgante_2"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="19dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/botao_assistir"
+        app:layout_constraintTop_toBottomOf="@+id/sinistro_2"
+        app:srcCompat="@drawable/informacoes" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
